@@ -1,4 +1,4 @@
-# ComfyUI Workflows - From Basic to Advanced
+# OmiX.IR ComfyUI Workflows - From Basic to Advanced
 
 Welcome to the **ComfyUI Workflows Repository**! 🚀 This repository contains a curated collection of workflows for **ComfyUI**, ranging from beginner-friendly setups to advanced AI-powered image generation techniques.
 
