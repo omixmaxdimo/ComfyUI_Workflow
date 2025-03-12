@@ -25,7 +25,7 @@ ComfyUI is a powerful, flexible, and node-based user interface for Stable Diffus
 ## 📥 How to Use
 1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/your-username/comfyui-workflows.git
+   git clone https://github.com/omixmaxdimo/comfyui-workflows.git
    ```
 2. **Open ComfyUI and Import the Workflow:**  
    - Launch ComfyUI
