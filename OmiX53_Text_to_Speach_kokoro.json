@@ -1,0 +1,225 @@
+{
+  "last_node_id": 9,
+  "last_link_id": 5,
+  "nodes": [
+    {
+      "id": 6,
+      "type": "KokoroGenerator",
+      "pos": [
+        -108.10592651367188,
+        422.5444641113281
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "speaker",
+          "type": "KOKORO_SPEAKER",
+          "link": 2
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            3
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KokoroGenerator"
+      },
+      "widgets_values": [
+        "",
+        1,
+        "English"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "Primitive string [Crystools]",
+      "pos": [
+        -509.9492492675781,
+        505.832275390625
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Primitive string [Crystools]"
+      },
+      "widgets_values": [
+        "i'm ai agent , want to set some picture for website"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "PreviewAudio",
+      "pos": [
+        363.2870788574219,
+        415.6751403808594
+      ],
+      "size": [
+        315,
+        88
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 3
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 5,
+      "type": "KokoroSpeaker",
+      "pos": [
+        -512.525146484375,
+        369.30865478515625
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "speaker",
+          "type": "KOKORO_SPEAKER",
+          "links": [
+            2
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KokoroSpeaker"
+      },
+      "widgets_values": [
+        "if_sara"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "StringStaticPrimitive",
+      "pos": [
+        -502.2215576171875,
+        630.335205078125
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            5
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringStaticPrimitive"
+      },
+      "widgets_values": [
+        "i'm ai agent , want to set some picture for website"
+      ]
+    }
+  ],
+  "links": [
+    [
+      2,
+      5,
+      0,
+      6,
+      0,
+      "KOKORO_SPEAKER"
+    ],
+    [
+      3,
+      6,
+      0,
+      7,
+      0,
+      "AUDIO"
+    ],
+    [
+      5,
+      9,
+      0,
+      6,
+      1,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.2810964147887665,
+      "offset": [
+        731.8981767993747,
+        -246.42717835228734
+      ]
+    },
+    "node_versions": {
+      "comfyui-kokoro": "4622d9e4adf5aa1bfc38eb552ac6047c20c212c9",
+      "comfyui-crystools": "72e2e9af4a6b9a58ca5d753cacff37ba1ff9bfa8",
+      "comfy-core": "0.3.24",
+      "comfyui-static-primitives": "b27afda79775c585d7674b72d0b24f4842fa5f3a"
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
